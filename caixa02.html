@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+
+        nav {
+            background-color: dimgray;
+            padding: 3px;
+            box-shadow: 1px 1px 2px -1px rgb(0 0 0 / 90%);
+            border-radius: 3px;
+            ;
+        }
+
+        nav>a {
+            margin-right: 30px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+
+
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+
+        article {
+            background-color: rgba(105, 105, 105, 0.32);
+            padding: 5px;
+            box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 23%);
+            border-radius: 3px;
+        }
+
+        article>aside {
+            background-color: rgba(105, 105, 105, 0.475);
+            box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 23%);
+            border-radius: 3px;
+        }
+
+
+        footer>p {
+            margin: 0;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px    ;
+            margin: 20px;
+            border-radius: 50%;
+            background-image: url(https://scontent.fcgh12-1.fna.fbcdn.net/v/t39.30808-6/269678921_2068605569980550_57500064135906176_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFDlAHXv7wNC5nvIrEwLffqquhdnm33C5qq6F2ebfcLmjjVmU6E1dyN9Z23tV_XtSOPgWqF30sZr_UA-rSjmzIZ&_nc_ohc=8YSHJny8yPAAX_U4Bk4&_nc_ht=scontent.fcgh12-1.fna&oh=00_AT9KdE6NtDoZKbRzHNxWJcbNLigRfz1M6XKzXwfQMYqnWw&oe=62A8E3A5);
+            box-shadow: 1px 1px 10px black;
+            
+    
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a><a href="#">Link</a><a href="#">Link</a><a href="#">Link</a><a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum possimus perspiciatis nulla quae ad
+                    recusandae repudiandae, error, explicabo fugiat magni porro corrupti ab facilis atque quos, expedita
+                    excepturi. Expedita, ipsa!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Criado pelo Curso em Vídeo</p>
+    </footer>
+    
+    <div id="bola"></div>
+</body>
+
+</html>
